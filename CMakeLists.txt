@@ -5,4 +5,5 @@ project(Advent_of_Code_2024
         DESCRIPTION "C++ impelementation of advent of code 2024! =)"
         LANGUAGES CXX)
 
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR})
 add_subdirectory(src)
